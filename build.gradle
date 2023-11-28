@@ -1,0 +1,28 @@
+buildscript {
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.17")
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: 'net.serenity-bdd.aggregator'
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.17'
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.39'
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.17'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.0.17'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.0.2'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.17'
+    implementation group: 'net.serenity-bdd', name: 'serenity-ensure', version: '2.0.49'
+}
+

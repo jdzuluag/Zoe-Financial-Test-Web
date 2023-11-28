@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a user I want to reschedule the appointment" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-28T18:34:15" hostname="JOSE" time="11.031">
+  <properties/>
+  <testcase name="Reschedule" classname="As a user I want to reschedule the appointment" time="11.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 43069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 28, 2023 1:34:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
